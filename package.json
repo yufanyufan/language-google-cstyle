@@ -6,6 +6,10 @@
     "atom": "*",
     "node": "*"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yufanyufan/language-google-cstyle.git"
+  },
   "devDependencies": {
     "coffeelint": "^1.10.1"
   },
