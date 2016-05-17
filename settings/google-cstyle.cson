@@ -1,12 +1,6 @@
 '.source.cpp.google,':
   'editor':
-    'commentStart': '// '
-    'decreaseIndentPattern': '(?x)
-       ^ \\s* (\\s* /[*] .* [*]/ \\s*)* \\}
-      |^ \\s* (\\s* /[*] .* [*]/ \\s*)* \\)
-      |^ \\s* (public|private|protected): \\s* $
-      |^ \\s* @(public|private|protected) \\s* $
-      '
+    'autoIndent': false
 '.source.c.google, .source.cpp.google':
   'editor':
     'foldEndPattern': '(?<!\\*)\\*\\*/|^\\s*\\}'
